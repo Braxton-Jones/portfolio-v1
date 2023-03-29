@@ -3,7 +3,7 @@ import arch from "./assets/images/arch-studio.png";
 import devjobs from "./assets/images/devjobs.png";
 import markdown from "./assets/images/markdown.png";
 import artGallery from "./assets/images/art-gallery.png"
-import dineDiner from "./assets/images/Capture.png"
+import dineDiner from "./assets/images/dine-diner.png"
 const projects = [
 	{
 		name: 'Markdown Web App',
