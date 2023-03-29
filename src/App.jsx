@@ -9,6 +9,7 @@ import sass from './assets/images/sass.png';
 import resume from "./assets/images/resume.png"
 import projects from "./data"
 import { useState } from "react";
+import resumePDF from "./assets/Resume.pdf"
 import toast, {Toaster} from "react-hot-toast"
 
 function App() {
@@ -100,7 +101,7 @@ return (
 					<a href='https://www.linkedin.com/in/braxton-jones-963633270/'>
 						<img src={linkedin} alt='linkedin logo' />
 					</a>
-					<a href='.\src\Resume.pdf'>
+					<a href={resumePDF}>
 						<img src={resume} alt='linkedin logo' />
 					</a>
 				</div>
