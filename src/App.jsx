@@ -6,6 +6,7 @@ import figma from './assets/images/figma.svg';
 import node from './assets/images/node.png';
 import react from './assets/images/react.png';
 import sass from './assets/images/sass.png';
+import ts from "./assets/images/typescript.png"
 import resume from "./assets/images/resume.png"
 import projects from "./data"
 import { useState } from "react";
@@ -152,6 +153,10 @@ return (
 						<li>
 							<img src={sass} className='toolkit-icon' />
 							Sass
+						</li>
+						<li>
+							<img src={ts} className='toolkit-icon' />
+							Typescript
 						</li>
 					</ul>
 				</div>
