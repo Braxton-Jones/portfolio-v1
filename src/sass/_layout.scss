@@ -6,7 +6,7 @@
 
 main {
   background-color: #151515;
-  padding-inline: pxToRem(10px);
+  padding-inline: pxToRem(50px);
 
   @media (min-width: 1140px) {
     padding-inline: pxToRem(300px);
@@ -19,7 +19,7 @@ main {
   border-bottom: 2px solid #c34ee1;
   background-color: none;
   text-transform: uppercase;
-  font-size: pxToRem(16px);
+  font-size: pxToRem(14px);
   line-height: pxToRem(26px);
   letter-spacing: pxToRem(2.29px);
   color: white;
@@ -75,7 +75,7 @@ main {
 
   @media (min-width: 768px) {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -182,8 +182,6 @@ main {
     }
   }
   @media (min-width: 1080px) {
-    display: grid;
-    grid-template-columns: minmax(pxToRem(500px), 1fr) 1fr;
     padding: pxToRem(80px);
     gap: pxToRem(70px);
     p {
@@ -346,6 +344,7 @@ main {
   }
 
   @media (min-width: 768px) {
+    padding-inline: pxToRem(120px) ;
     p {
       font-size: pxToRem(18px);
       max-width: pxToRem(400px);

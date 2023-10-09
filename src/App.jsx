@@ -66,7 +66,7 @@ return (
 				I build accessible, inclusive and unique experiences for the web.
 				</p>
 				<a href='mailto:braxtonjonesttsl@gmail.com' className='underline'>
-				Get in touch (Open to Opportunities)
+				Get in touch
 				</a>
 			</section>
 			<section className='about-me-container'>
