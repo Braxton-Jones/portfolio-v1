@@ -60,7 +60,7 @@ return (
 			</section>
 			<section className='hero-container'>
 				<h1 className='hero-title'>
-					Nice to meet you! I'm <span>Braxton Jones.</span>
+					Nice to meet you!<br/> I'm <span>Braxton Jones.</span>
 				</h1>
 				<p className='hero-content'>
 				I build accessible, inclusive and unique experiences for the web.

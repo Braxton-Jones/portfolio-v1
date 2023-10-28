@@ -16,13 +16,6 @@ const projects = [
 		'code-link': 'https://github.com/Braxton-Jones/markdown-app',
 		'website-link': 'https://braxton-markdown-app.netlify.app/',
 	},
-	{
-		name: 'Arch Studio Landing Page',
-		image: arch,
-		tags: ['Sass', 'React',],
-		'code-link': 'https://github.com/Braxton-Jones/arch-studio',
-		'website-link': 'https://arch-studios-landing-page.netlify.app/',
-	},
 ];
 
 export default projects;

@@ -88,7 +88,7 @@ main {
   border-bottom: 2px solid #979797;
 
   .hero-title {
-    font-size: pxToRem(40px);
+    font-size: pxToRem(38px);
     line-height: pxToRem(40px);
     text-align: center;
     letter-spacing: pxToRem(-1.14px);
@@ -109,9 +109,10 @@ main {
     .hero-title {
       font-size: pxToRem(60px);
       line-height: pxToRem(72px);
-      max-width: pxToRem(600px);
+      max-width: auto;
       span {
         font-size: pxToRem(60px);
+       
       }
     }
     .hero-content {
